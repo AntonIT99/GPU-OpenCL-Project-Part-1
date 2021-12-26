@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\alpha\Documents\C &amp; C++ projects\GPGPU\Assignment1\Common\CAssignmentBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alpha\Documents\C &amp; C++ projects\GPGPU\Assignment1\Common\CLUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alpha\Documents\C &amp; C++ projects\GPGPU\Assignment1\Common\CTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\alpha\Documents\C &amp; C++ projects\GPGPU\Assignment1\Common\CAssignmentBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alpha\Documents\C &amp; C++ projects\GPGPU\Assignment1\Common\CLUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alpha\Documents\C &amp; C++ projects\GPGPU\Assignment1\Common\CTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alpha\Documents\C &amp; C++ projects\GPGPU\Assignment1\Common\CommonDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alpha\Documents\C &amp; C++ projects\GPGPU\Assignment1\Common\IComputeTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alpha\Documents\C &amp; C++ projects\GPGPU\Assignment1\Common\IGUIEnabledComputeTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alpha\Documents\C &amp; C++ projects\GPGPU\Assignment1\Common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{EFD1F2E3-8D09-3E63-8150-47567479E9DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3462DF6C-29F7-371B-85B7-80FFDBE403D4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+﻿  CMatrixRotateTask.cpp
+C:\Users\alpha\source\repos\Test_Visual_Studio\Assignment1\Assignment1\CMatrixRotateTask.cpp(164,29): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alpha\source\repos\Test_Visual_Studio\Assignment1\Assignment1\CMatrixRotateTask.cpp(166,30): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"

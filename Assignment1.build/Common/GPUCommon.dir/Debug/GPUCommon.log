@@ -1,0 +1,3 @@
+﻿  CLUtil.cpp
+C:\Users\alpha\source\repos\Test_Visual_Studio\Assignment1\Common\CLUtil.cpp(127,32): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  GPUCommon.vcxproj -> C:\Users\alpha\source\repos\Test_Visual_Studio\Assignment1\Assignment1.build\Common\Debug\GPUCommon.lib

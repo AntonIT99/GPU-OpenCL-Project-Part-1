@@ -1,0 +1,10 @@
+^C:\USERS\ALPHA\SOURCE\REPOS\TEST_VISUAL_STUDIO\ASSIGNMENT1\ASSIGNMENT1.BUILD\CMAKEFILES\68199F5A7598548FE0A4610E7EA0CC37\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alpha/source/repos/Test_Visual_Studio/Assignment1/Assignment1 -BC:/Users/alpha/source/repos/Test_Visual_Studio/Assignment1/Assignment1.build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/alpha/source/repos/Test_Visual_Studio/Assignment1/Assignment1.build/GPUComputing.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

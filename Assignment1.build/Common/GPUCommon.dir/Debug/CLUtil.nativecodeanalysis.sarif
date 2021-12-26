@@ -1,0 +1,174 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Die Variable \"CTimer::m_StartTime\" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alpha/source/repos/Test_Visual_Studio/Assignment1/Common/CTimer.h"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 2,
+                  "endLine": 57,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CTimer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "CTimer::m_StartTime"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Die Variable \"CTimer::m_EndTime\" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alpha/source/repos/Test_Visual_Studio/Assignment1/Common/CTimer.h"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 2,
+                  "endLine": 57,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CTimer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "CTimer::m_EndTime"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29914.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF6E9F1DC50 -il C:\\Users\\alpha\\AppData\\Local\\Temp\\_CL_2ab67452ast -typedil -f C:\\Users\\alpha\\source\\repos\\Test_Visual_Studio\\Assignment1\\Common\\CLUtil.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829914 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -I C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.3\\include -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -DWIN32 -D_WINDOWS -DCMAKE_INTDIR=\"Debug\" -D_MBCS -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -GR -D_CPPRTTI -FoGPUCommon.dir\\Debug\\CLUtil.obj -FdC:\\Users\\alpha\\source\\repos\\Test_Visual_Studio\\Assignment1\\Assignment1.build\\Common\\Debug\\GPUCommon.pdb -Gd -analyze:projectdirectory C:\\Users\\alpha\\source\\repos\\Test_Visual_Studio\\Assignment1\\Assignment1.build\\Common -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\EspXEngine.dll -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/alpha/source/repos/Test_Visual_Studio/Assignment1/Common/CTimer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "827e1165ec60875eeecf7b2365c5c1c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alpha/source/repos/test_visual_studio/assignment1/common/clutil.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "bc0603b6693607dc9006f313039d71e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alpha/source/repos/test_visual_studio/assignment1/common/clutil.h"
+          },
+          "hashes": {
+            "md5": "0e5a2937bdf64b5afefa776af0a24355"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v11.3/include/cl/opencl.h"
+          },
+          "hashes": {
+            "md5": "8bc9b45b5eb552d7afae15b949f2f2c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v11.3/include/cl/cl.h"
+          },
+          "hashes": {
+            "md5": "986f2c88058a973c69c4227b7624630a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v11.3/include/cl/cl_platform.h"
+          },
+          "hashes": {
+            "md5": "fa6223a3567c2bf83ba4a6002aa7d2bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v11.3/include/cl/cl_gl.h"
+          },
+          "hashes": {
+            "md5": "c0012c3a4f2b9d3ac9d25a371e4d30b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v11.3/include/cl/cl_gl_ext.h"
+          },
+          "hashes": {
+            "md5": "5c622936ef40bcc9f92b714821650705"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v11.3/include/cl/cl_ext.h"
+          },
+          "hashes": {
+            "md5": "3ac22e16ca0af713dd3b0131e90f81bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alpha/source/repos/test_visual_studio/assignment1/common/commondefs.h"
+          },
+          "hashes": {
+            "md5": "371d7c73d0fe1709cc99a36b76d7384b"
+          }
+        }
+      ]
+    }
+  ]
+}

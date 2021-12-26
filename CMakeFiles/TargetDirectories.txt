@@ -1,0 +1,4 @@
+C:/Users/alpha/Documents/C & C++ projects/GPGPU/Assignment1/CMakeFiles/Assignment.dir
+C:/Users/alpha/Documents/C & C++ projects/GPGPU/Assignment1/CMakeFiles/ALL_BUILD.dir
+C:/Users/alpha/Documents/C & C++ projects/GPGPU/Assignment1/CMakeFiles/ZERO_CHECK.dir
+C:/Users/alpha/Documents/C & C++ projects/GPGPU/Assignment1/Common/CMakeFiles/GPUCommon.dir

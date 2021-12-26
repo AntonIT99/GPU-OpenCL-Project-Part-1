@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alpha\source\repos\Test_Visual_Studio\Assignment1\Common\</FILEPATH>
+      <FILENAME>CTimer.h</FILENAME>
+      <LINE>57</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Die Variable "CTimer::m_StartTime" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).</DESCRIPTION>
+    <FUNCTION>CTimer::{ctor}</FUNCTION>
+    <DECORATED>??0CTimer@@QEAA@XZ</DECORATED>
+    <FUNCLINE>57</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTimer::m_StartTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
